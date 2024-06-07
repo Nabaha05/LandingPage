@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+   
+   <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffffe8;
+        }
+     
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        .main-heading {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .main-heading2 h2 {
+
+           margin: 20px;
+           font-family: 'Inter';
+           font-size: 34px;
+           font-weight: 600;
+           line-height: 44px;
+           margin-left: 150px;
+           margin-top: 100px;
+           opacity: 0;
+       }
+
+.main-heading2 h4 {
+  margin-top: 5px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 10;
+  line-height: 24px;
+  margin-left: 150px;
+  opacity: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  margin: 25px 100px;
+}
+
+.w3-container {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: 1px solid #F7F7F7;
+  box-shadow: 4px 8px 20px 0px #0000001A;
+}
+
+.w3-container h4 {
+  margin: 1px;
+  font-size: 1.2em;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.testimonial img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial .text p {
+  margin: 0;
+}
+        
+
+        
+        .image-1 img{
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            margin: auto ;
+        }
+
+        .main-heading3 {
+            text-align: center;
+        }
+
+        .main-heading3 h2{
+            text-align: left;
+            margin-left:150px;
+        }
+        .main-heading3 h3{
+            text-align: left;
+            margin-left:150px;
+        }
+
+        .image-container {
+
+            display: flex;
+            justify-content: space-between; /* Adjusts spacing between items */
+            align-items: flex-start; /* Aligns items to the top */
+            gap: 5px; /* Adjust gap as needed */
+            padding-left:150px; /* Optional: Add padding for better spacing */
+            padding-right:150px; /* Optional: Add padding for better spacing */
+
+        }
+
+        .image-container div {
+
+            display: flex;
+            flex-direction: column; /* Ensures the image and text are stacked vertically */
+            align-items: left; /* Centers items horizontally */
+            text-align: left;
+        }
+
+        .image-container img {
+
+            width: 300px; /* Set desired width */
+            height: 250px; /* Set desired height */
+            border-radius: 10px;
+        }
+
+       .image-container p {
+            margin: 10px 10px 0 0; /* Adjust margin as needed */
+            text-align: left;
+
+        }    
+
+        footer {
+           display: flex;
+           justify-content: space-between;
+           align-items: flex-start;
+           padding: 20px;
+           background-color: #ffffff;
+           margin-top: 100px;
+
+        }
+        .Footer-1 {
+            display: flex;
+            display:block;
+            flex-direction: row;
+            justify-content: space-between;
+            align-self: flex-start;
+            padding: 10px;
+            gap:20px;
+        }        
+        .socials {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        gap: 20px; 
+        margin: 10; 
+        bottom:50px;
+        fill: #ffffff;
+        width: 24px; 
+        height: 24px; 
+       }
+        .topics {
+           display: flex;
+           gap: 100px;
+       }
+       .topic p {
+         flex: 8px;
+         font-weight: 200;
+       }
+       .topic ul {
+        list-style-type: none;
+        padding: 0;
+        }
+
+       .topic ul li {
+        margin-bottom: 10px;
+
+        }
+
+        .topic:nth-child(2) {
+          border-left: 0px solid #ccc; 
+        }
+
+       .topic:last-child {
+          border-right: 0px solid #ccc; 
+
+        }
+
+        .container1 {
+            display:block;
+            width: Hug (149px)px;
+            height: Hug (50px)px;
+            gap: 16px;
+
+        }
+
+       
+
+        
+    </style>
+</head>
+<body>
+    <header> 
+        <p>My Website</p>
+        <nav> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button>Login / Signup</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-heading">
+        <h1>Culinary Workshop Landing Page</h1>
+        <p>Learn to Cook Like a Pro</p>
+    </div>
+    <div class="image-1">
+        <img src="https://s3-alpha-sig.figma.com/img/1481/875b/94ba2048fe9940fe0061a0819ceed048?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bR94K1zhiBWjCwe4geavO2ffnyf62bMuB2lQSGxyYlGQIaxz4pAA9ZsyTDVPt2H~Bh1fS0Rd4eYTvRq7pmCl84jw9MObsFubEeovVXmBa68PIhONx2S23~j2mW6KK4lma4mR2e9Hw6TqAxOMBON5y~noq5hrqEms7lNTn~8J~Zl0-k8xT5vJ1QSm6yfotPU7hN6bQYeNpjPXtRVLwZlekMlmD7tMdz4q6UyS9NMiQ4HxAcw22d5Fypka5eRhGmk0Ei21bO1uQzfzD~ZV1OdYlGcE34XJLW-apuFHaK-rEAwooC7ELp-Ofz8zryVMNbJBO67CYfA0~mqWaFTibGZGjw__" alt="Culinary Workshop Image">
+    </div>
+    <div class="main-heading2">
+        <h2>Testimonials</h2>
+        <h4> Our Customers Speak </h4>
+      </div>
+      <div class="heading">
+        <br>
+        <div class="w3-container">
+          <h4>A terrific piece of praise.</h4>
+          <div class="testimonial">
+            <img src="https://s3-alpha-sig.figma.com/img/eef3/6a48/1a33eb6dc13aa6b624105a5a5e591e72?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SA8PX63DFoSx8X5LFq45A-Y9Plvkex3gp6Ip0YUIHy0n7jkEPeH5UXpeMfcY0xESeFFMP9G1niawAQ9Gd6sh7LbXsiC~5s7AOd4unRZv4m2LUEgduvqYSB6k4TJvXSj-IuOglIazscTxPntYaSLq2~lLl3LVtHNA46xIJCcxJAV-lcj6Ly4DDJ5y3OrZhaHdq~Vi4-xzVViIoK5jNm0mHMc3QWLFqYKBTJKEoK9whVO7FI2u19bXrhIKXNCjMtoNMRIHwofzuG6Aefcuhqxonkp-1LdJ8BxnX1rOBVwpAatNbg8vf419wvXHBx80pNsa7x910-0Im1Yhs23CQmpfOQ__" alt="Testimonial 1">
+            <div class="text">
+              <p>Name</p>
+              <p>Description</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <h4>A fantastic bit of feedback.</h4>
+          <div class="testimonial">
+            <img src="https://s3-alpha-sig.figma.com/img/48fb/0979/b0fbdd8e320622de39475b562ddad56d?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gcuGV23RG8rVq1PMQPkSLmqZmYBkCAgeW0JY-SkVMG7jp4Ye~eii5l0sgfMuYwLqkwPMSgVIZXUX6wz3d-jiXHxGKSlvkqwY7rMSNFPK~kFjK6Qovpzue3yLdxx9n5I7gugFUAPhlmBFqeRQZ3uHV9n0YbKMZBfdUv3pENP8qC14abVvddt~qvYQFaPmxhVv9xb2BAXv5yCIj61X6vr0YpxVhAO8-iThs5s9YdwahRw9t7~AmycNAuVmO9fk2wdlHn8p20fgV6QeoQNkvl-K-nSrVJWLbvDAS6A4l9xf2Udm2gIl8REAvakXNBjat0xbNIQfUvsqhY2tKbHC6NSX7g__" alt="Testimonial 2">
+            <div class="text">
+              <p>Name</p>
+              <p>Description</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <h4>A genuinely glowing review.</h4>
+          <div class="testimonial">
+            <img src="https://s3-alpha-sig.figma.com/img/031d/ee8a/d390261e0a59354a086f7e9a9be4cb3b?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ocios0n4qEYtvhUY7cu~EnyW8ZIA2f6QCc6a5WcU4Cdtl-KvOiwSwjToz3wV6~1TLx9weOle1v51sFm9euJ7MWoQt4JI4mHlD6JYsRF2HQxANeFi9JFLA22uyYYNZ6pMR-BNEKWUtVq4GpSX59TgXH0F1YXe-DH~gBoazaRlkPxlr6nabw7OyiWJHDol-5TK3Qu8k9RAloo5EuWYP8-Mc~EDFdvhAYU64~TSbMY9ZzCgPO7hm2uT8UYFS2DpQurSoy-~3edToocJuT-4NF0LaION4Zm~fnVc4j4j94zlKLe5VN~d41QABlaQTAalUXC4YqesPhXuLxLD9OnLAul4fQ__" alt="Testimonial 3">
+            <div class="text">
+              <p>Name</p>
+              <p>Description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="main-heading3">
+        <h2>Related articles or posts </h2>
+    </div>
+    <div class="image-container">
+        <div class="image-2">
+            <img src="https://s3-alpha-sig.figma.com/img/4737/fe1b/f44d7342d9605d5c93635abf8a144817?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YtGTOBUtWIUlanqeUwHV5dS-P129qQmaYXyORYaXpl0Q77JvUdS78HrG9aApU5Nnk2Xcgn2uwXBjWf6dIY-n00iS8MT4eNXBcSAtYbBah76S5x8sIYmFuFa1b4uIhihEnLnvaXo5LMe6u9S3LmiEuYo9LV9hpxE5CoD6GYYK-CLod3mJvh2xfLTU3ePEw61APsdfBHloa-tIWiKTCKe4cKXjCsivOtdlqe~PT-i6ZHyo01dzx9moDCC~4B1rUDrtYP9Ad4qYRcPCOtOdUNMqs1qiqxBnUeGrUBIlomeL-mLXkM4MMTb3OIUS1toIRWoaucOTnLYcJX79N4t7w8nTAw__" alt="Related Article 1">
+            <p>Title</p>
+            <p>Author</p>
+            
+        </div>
+        <div class="image-3">
+            <img src="https://s3-alpha-sig.figma.com/img/379c/0155/bc413a61ca41917df832a2e64530e9d7?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IElCGpcMue10GDXaYB5ePutN4nsWUCSJzod2KDmulCWN-TcBsmtHAp3sbL2K8tHy-ms2eHkXCosy3AEoJVGRRxvGi~Bf2dmvQx5OvdbFM1wGMro7m1ev92R~cWo-YCDoG1cdJPc-CoVDg1SitSn2h2qa6Ra3u20EZHisSBX9oTEeYK2NgmIHCFE2TzAi9csDL~D5oLeDZQnMhVygNtY~4u17PS-aYAnaUJASwW1HdNidQ0I3vrCls38KsrNvgGTMokssrsAvicM0w1Ppo~bC8TVBuPYWUh8o8~dbTkXZhXRwQPBU7kH0kimo17RWxxzlCDYtMeoV8I50RyOUFeqcQA__" alt="Related Article 2">
+            <p>Title</p>
+            <p>Author</p>
+        </div>
+        <div class="image-4">
+            <img src="https://s3-alpha-sig.figma.com/img/44b0/aa43/a57e23aec207706d7933d9eaa0f3360a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WM83GTt-TmkxWuwwzQBrC9yxqeAs9i0ncEGLXGEubFpaQSMISW5i~DrvWGdpTHJDU48YaFXjkLuuEivxheZpC8YMzYy11mDw~rk-j9r3fyI5TXZJ6NF2CLHD~kSg3k8JLsO4HI8czkWV6~ICvt9sGwfwDm2jrsM33Hcvoap6ol3NzceTKO4lOUtmHh5wKZyn9izQL7ZHgNRTwLFPqI9OgJeSvaouWJhk9s7lEx64hC2Xc28th2jIMAXZpR2URLZ2oO1HvWRDJZjr8-E1mY~tcvZ8Ndw9f8uUUDkDfvSYgCcKJda31qRoEJKh91KTnXazWOjghx55d4OJSbfcYj6lpA__" alt="Related Article 3">
+            <p>Title</p>
+            <p>Author</p>
+        </div>
+    </div>
+        
+    
+    <footer> 
+        <div class="Footer-1">
+            <p>My Website</p>
+            <div class="socials">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class='topics'>
+            <div class="topic">
+                <p>Topic 1</p>
+                <ul>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                </ul>
+            </div>
+            <div class="topic">
+                <p>Topic 2</p>
+                <ul>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                </ul>
+            </div>
+            <div class="topic">
+                <p>Topic 3</p>
+                <ul>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                    <li><a href="https://www.pexels.com/video/meat-grilling-1111421/">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+    
+</body>
+</html>
